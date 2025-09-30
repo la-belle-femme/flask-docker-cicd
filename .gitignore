@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+# secrets
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.cer
+.env
+.env.*
+secrets/
+# infra
+*.tfvars
+*.tfstate*
+.kube/config
