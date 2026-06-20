@@ -1,4 +1,4 @@
-From python:3.9-slim
+From python:3.15-rc-alpine
 WORKDIR /app
 COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
